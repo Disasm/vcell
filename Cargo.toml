@@ -10,3 +10,6 @@ version = "0.1.3"
 
 [features]
 const-fn = [] # Unused, but kept for backwards compatibility
+
+[dependencies]
+avatar-common = { path = "../avatar-common" }
